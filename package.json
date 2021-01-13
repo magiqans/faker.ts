@@ -1,6 +1,6 @@
 {
   "name": "@vitalicset/faker.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate massive amounts of fake contextual data using typescript decorators",
   "main": "lib/index.js",
   "private": false,
@@ -27,7 +27,7 @@
   },
   "keywords": [],
   "author": "",
-  "license" : "SEE LICENSE IN LICENSE file",
+  "license": "SEE LICENSE IN LICENSE file",
   "bugs": {
     "url": "https://github.com/vitalics/faker.ts/issues"
   },
