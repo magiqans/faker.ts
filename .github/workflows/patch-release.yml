@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
+      - run: npm ci
       - run: npm version patch
       - run: npm publish
       - uses: JS-DevTools/npm-publish@v1
