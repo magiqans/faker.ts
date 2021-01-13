@@ -1,0 +1,57 @@
+{
+  "name": "faker.ts",
+  "version": "1.0.0",
+  "description": "Generate massive amounts of fake contextual data using typescript decorators",
+  "main": "lib/index.js",
+  "private": false,
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalics/faker.ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license" : "SEE LICENSE IN LICENSE file",
+  "bugs": {
+    "url": "https://github.com/vitalics/faker.ts/issues"
+  },
+  "homepage": "https://github.com/vitalics/faker.ts#readme",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.1.5",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "faker": "^5.1.0"
+  },
+  "maintainers": [
+    {
+      "name": "vitalicset",
+      "email": "vitalicset@yandex.ru",
+      "url": "https://github.com/vitalics"
+    }
+  ]
+}

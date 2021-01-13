@@ -1,0 +1,1 @@
+export { makePropertyDecoratorWithArgs } from './decorator';
