@@ -104,5 +104,6 @@ dist
 .tern-port
 
 # project specific files
+.DS_Store
 /lib
 .vscode
